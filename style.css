@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;500;700;800&display=swap');
+
+* {
+    font-family: 'Hanken Grotesk', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+
+
+.main-container {
+    display: flex;
+    background-color:white;
+    box-shadow: 10px 10px 30px hsla(241, 100%, 89%, 0.427);
+}
+
+.result-container {
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    text-align: center;
+    padding: 15px;
+    border-radius: 0px 0px 30px 30px ;
+    color: hsl(241, 100%, 89%);
+
+}
+
+.summary-container {
+    margin: 0 auto;
+    padding: 0px 20px 10px 20px;
+    width: 100%;
+}
+
+.result-heading {
+    font-size: 1.2rem;
+    margin: 15px 0 20px 0;
+}
+
+.result-score {
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.score-main  {
+    font-size: 4.4rem;
+    color: white;
+    font-weight: bolder;
+}
+
+.score-of {
+    opacity: 0.7;
+}
+
+.result-great {
+    color: white;
+    font-size: 1.6rem;
+    margin: 25px 0 20px 0;
+}
+
+.result-des {
+    font-weight: 500;
+    padding: 0 30px 25px 30px;
+}
+
+.summary-heading {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 25px 0 25px 0;
+}
+
+.score {
+    display: flex;
+    font-size: 1.1rem;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.gap-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.summary-button {
+    width: 100%;
+    border-radius: 40px;
+    font-size: 1.4rem;
+    padding: 13px 10px 13px 10px;
+    margin: 20px 0 20px 0;
+    background-color:  hsl(224, 30%, 27%);
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+
+.summary-button:hover {
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+
+.opacity {
+    opacity: 0.4;
+}
+
+.reaction-p{
+    color: hsl(0, 100%, 67%);
+}
+
+.reaction {
+    background-color: hsla(0, 100%, 67%, 0.07);
+}
+
+.memory-p {
+    color: hsl(39, 100%, 56%);
+}
+
+.memory {
+    background-color: hsla(39, 100%, 56%, 0.07);
+}
+
+.verbal-p {
+    color: hsl(166, 100%, 37%);
+}
+
+.verbal {
+    background-color: hsla(166, 100%, 37%, 0.07);
+}
+
+.visual-p {
+    color: hsl(234, 85%, 45%);
+}
+
+.visual {
+    background-color: hsla(234, 85%, 45%, 0.07);
+}
+
+@media screen and (max-width: 500px) {
+
+    .main-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 700px) {
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+    width: 700px;
+    margin-top: 90px;
+    border-radius: 30px;
+}
+
+.result-container {
+    border-radius: 30px;
+    width: 700px;
+}
+
+.result-score {
+    padding: 20px;
+    width: 140px;
+    height: 140px;
+}
+
+.score-main {
+    margin-top: 5px;
+    font-size: 4.5rem;
+}
+
+.result-heading {
+    margin: 30px 0 30px 0;
+}
+
+.result-great {
+    font-size: 2rem;
+    margin-top: 40px;
+}
+
+.result-des {
+    margin: 0px 20px 0 20px;
+}
+
+.score {
+    height: 20px;
+}
+
+.summary-button {
+    padding: 15px;
+    font-size: 1rem;
+    margin-top: 40px;
+}
+}
+
